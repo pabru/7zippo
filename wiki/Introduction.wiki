@@ -2,5 +2,8 @@ Converting an archive (.zip, for example) to another type (.7z, for example) is 
 
 7zippo makes use of the 7-zip SDK, and is capable of reading all formats that 7-zip supports. But why did I take the .zip format for example? Because (1) converting a zip archive is quite benefitial, and (2) documents such as .docx and .odf are all based on the zip format. I have found that converting these documents to .7z results in much higher compression ratio that directly re-compress them to 7z (.docx.7z or .odf.7z). 
 
-7zippo currently is a simple commland line tool, and the whole plan is: 1. Core 
-Functionality 2. Integrating with Windows Explorer context menu. 3. Integrating with Offices to support 7-zipped documents. 4. Contributing to 7-zip a CODEC specific to these zipped documents that actually performs conversion. 
+7zippo currently is a simple commland line tool, and the project outline is: 
+ #Core Functionality (command line only).
+ #Integrating with Windows Explorer context menu. 
+ #Integrating with Offices to support 7-zipped documents. 
+ #Contributing to 7-zip a CODEC specific to these zipped documents that actually performs conversion. 
